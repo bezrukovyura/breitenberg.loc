@@ -1,0 +1,288 @@
+.callSectionActive .mainPage,
+.contactForm .mainPage {
+  display: none !important;
+}
+
+.pageTpl {
+  .mainPage {
+    min-height: 900px;
+    padding: 90px 0 0 0;
+    max-width: 1185px;
+    margin: 0 auto 150px auto;
+    .back {
+      font-size: 18px;
+      border-bottom: 1px solid black;
+      padding: 0 2px 0 0;
+      margin: 0 0 7px 0;
+      display: block;
+      width: 51px;
+    }
+    .content {
+      margin: 38px 0 0 0;
+      border-top: 1px solid black;
+      padding: 74px 0 0 0;
+      overflow: hidden;
+      >div {
+        float: left;
+      }
+      .additionContent {
+        width: 33%;
+        .text {
+          padding: 0 7px;
+          font-size: 15px;
+          line-height: 24px;
+          div {
+            height: 19px;
+            width: 100%;
+          }
+        }
+        .blockInfo {
+          border: 2px solid black;
+          padding: 15px;
+          margin: 26px 0 0 11px;
+          font-size: 15px;
+          line-height: 24px;
+        }
+      }
+    }
+    >.text {
+      font-size: 18px;
+      margin: 8px 0 0 0;
+    }
+    >.title {
+      font-size: 48px;
+      font-weight: 900;
+    }
+    .itemsConteiner {
+      width: 67%;
+      .itemWrapper {
+        max-width: 100%;
+        overflow: hidden;
+        margin: 0 0 80px 0;
+        >.item {
+          >div {
+            width: 49%;
+            overflow: hidden;
+            float: left;
+          }
+          .images {
+            .bigImage {
+              width: calc(~'100% - 6px');
+              height: 370px;
+              background-position: 50% 50%;
+              background-size: cover;
+              background-repeat: no-repeat;
+              .zoom {
+                height: 30px;
+                width: 30px;
+                background: #000;
+                cursor: pointer;
+                transition: none;
+              }
+            }
+            .imgLine {
+              margin: 14px 0 0 0;
+              >div {
+                float: left;
+              }
+              .imgFourWrapper {
+                max-width: calc(~'100% - 25px');
+                overflow: hidden;
+              }
+              .imgFour {
+                overflow: hidden;
+                width: 600px;
+                padding-bottom: 3px;
+                >div {
+                  width: 70px;
+                  height: 70px;
+                  margin: 0px 11px 4px;
+                  cursor: pointer;
+                  float: left;
+                  position: relative;
+                  &:hover {
+                    opacity: 0.8;
+                  }
+                  &:first-child {
+                    margin: 0 12px 4px 0;
+                  }
+                  .substruct {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    &:hover {
+                      border: 3px solid black;
+                      opacity: 0.2;
+                    }
+                    &.active {
+                      border: 3px solid black;
+                    }
+                  }
+                }
+                img {
+                  width: 100%;
+                  height: 100%;
+                  margin: 2px 0 0 2px;
+                }
+              }
+              .imgArrow {
+                div {
+                  height: 26px;
+                  width: 21px;
+                  margin: 0;
+                  cursor: pointer;
+                }
+                .right {
+                  margin: 0 0 15px 0;
+                }
+              }
+            }
+          }
+          .info {
+            padding: 0 0 0 6px;
+            .title {
+              font-size: 36px;
+              font-weight: 900;
+              margin: 0 0 10px 9px;
+            }
+            .titleOption {
+              margin: 0px 0 0 10px;
+              font-size: 18px;
+            }
+            .text {
+              font-size: 15px;
+              overflow-wrap: break-word;
+              margin: 18px 0 0 10px;
+              line-height: 24px;
+            }
+            .actionPhone {
+              color: #ffe000;
+              margin: 44px 0 0 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .section_header0.bhp.yellow {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .mainPage {
+    >.title {
+      font-size: 21px !important;
+      margin: 30px 0 0 0 !important;
+    }
+    max-width: 96% !important;
+    margin: 0 auto 28px auto !important;
+    >.text {
+      font-size: 13px !important;
+    }
+    .itemsConteiner {
+      width: 100% !important;
+      .itemWrapper {
+        >.item .images .bigImage {
+          height: 160px !important;
+        }
+        .title {
+          font-size: 25px !important;
+        }
+        .text {
+          font-size: 14px !important;
+        }
+        .actionPhone {
+          margin: 22px 0 0 0 !important;
+        }
+      }
+    }
+    .content .additionContent {
+      width: 100% !important;
+      .text {
+        font-size: 12px !important;
+        div {
+          height: 5px !important;
+        }
+      }
+      .blockInfo {
+        font-size: 12px !important;
+        padding: 4px 8px !important;
+      }
+    }
+  }
+  .imagesWrapper {
+    width: 100% !important;
+  }
+  .itemWrapper {
+    .title {
+      display: none !important;
+    }
+    .info {
+      width: 100% !important;
+      margin: 23px 0 0 0;
+      padding: 0 !important;
+      .text {
+        margin: 0 !important;
+      }
+    }
+  }
+  .mobileTitle {
+    display: block !important;
+    font-size: 27px;
+    font-weight: 900;
+    margin: 0 0 17px 0;
+    width: 100%;
+  }
+  .pageTpl .mainPage {
+    padding: 66px 0 0 0;
+  }
+  .pageTpl .mainPage .content {
+    padding: 40px 0 0 0;
+  }
+  .pageTpl .mainPage .itemsConteiner .itemWrapper>.item .images .imgLine .imgFour>div {
+    width: 54px;
+    height: 54px;
+  }
+  .pageTpl .mainPage .itemsConteiner .itemWrapper>.item .images .imgLine .imgArrow .right {
+    margin: 0 0 6px 0;
+  }
+  .pageTpl .mainPage .itemsConteiner .itemWrapper {
+    margin: 0 0 50px 0;
+    padding: 0 6px;
+  }
+  .pageTpl .mainPage .back {
+    margin: 0 0 0 6px;
+  }
+  .mainPage>.title {
+    margin: 30px 0 0 6px !important;
+  }
+  .mainPage>.text {
+    margin: 10px 0 0 10px !important;
+  }
+  .pageTpl .mainPage .content .additionContent .blockInfo {
+    margin: 35px 6px;
+    padding: 27px !important;
+}
+}
+
+.addTextInfo {
+  padding: 0 0 0 8px;
+  font-size: 15px;
+  line-height: 21px;
+  .subTitle {
+    font-weight: 900;
+    margin: 30px 0 30px 0;
+  }
+  .point {
+    width: 5px;
+    height: 5px;
+    background: #181717;
+    border-radius: 16px;
+    float: left;
+    margin: 6px 5px 0 0;
+  }
+  b {
+    font-weight: 900;
+  }
+}
