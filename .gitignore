@@ -1,4 +1,4 @@
-
+.vscode/
 node_modules/
 
 App.js
@@ -11,3 +11,7 @@ page.css
 style.css
 modal.css
 mail.php
+
+app.gitignore
+package-lock.json
+*.zip
