@@ -68,6 +68,9 @@ window.onload = function () {
 
 
     if (isMobile()) {
+        $("#sec0 .logo .logo").css("display","none");
+
+
         $(".section_menu .wrapText a").on("click", function (evn) {
             $(document).scrollTop($((<any>evn.currentTarget).hash).offset().top - 90);
         })
