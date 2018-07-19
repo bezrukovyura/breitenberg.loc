@@ -1,4 +1,6 @@
 {
+  "metaTitle": "myTitle",
+  "metaDescription": "myDescription",
   "title": "Перчатки хлопчатобумажные и нитриловые",
     "type": "перчаток",
       "items": [ 

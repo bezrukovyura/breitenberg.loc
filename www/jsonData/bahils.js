@@ -1,4 +1,6 @@
 {
+  "metaTitle": "myTitle",
+  "metaDescription": "myDescription",
   "title": "Бахилы от производителя",
     "type": "бахил",
       "items": [

@@ -1,4 +1,6 @@
 {
+  "metaTitle": "myTitle",
+  "metaDescription": "myDescription",
   "title": "Диспенсеры бумажных полотенец",
     "type": "диспенсеров",
       "items": [ 
