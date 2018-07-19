@@ -19,19 +19,19 @@ class Page {
   private data: any;
 
   constructor(private jsonUrl: string, private dataInner?: string) {
-    try{
+    try {
       this.getData();
     }
     catch {
-    document.location.href = "/pages/404.php";
+      document.location.href = "/pages/404.php";
     }
-    
+
 
 
   }
 
   private getData() {
-    if(this.dataInner){
+    if (this.dataInner) {
       this.data = JSON.parse(this.dataInner);
       this.init()
     }
@@ -41,16 +41,16 @@ class Page {
     }).done(x => {
       this.init();
     })
-    
+
   }
 
   private init() {
     new Template(".mainPage", "#tpl_Js_page", this.data);
   }
 
-   static isPage():boolean{
+  static isPage(): boolean {
     return $(".pageTpl").length === 1;
-   }
+  }
 
 }
 
@@ -86,7 +86,7 @@ class SliderFour {
   zoom(arg: JQueryEventObject) {
     debugger
     let url: string = $(arg.currentTarget).parent()[0].style.backgroundImage;
-    url = url.replace('url("', "").replace('")',"");
+    url = url.replace('url("', "").replace('")', "");
     ModalWindow.setStatus(true, url);
   }
 
@@ -122,11 +122,11 @@ class SliderFour {
     let url = (<any>parentDiv.find('img[data-number="' + numb + '"]')[0]).currentSrc;
     parentDiv.find(".bigImage").css("background-image", "url(" + url + ")")
 
-    if(numb < countImg - 2)
-      parentDiv.find(".imgFour").css("margin-left", "-" + 90 * (numb-1)+"px");
+    if (numb < countImg - 2)
+      parentDiv.find(".imgFour").css("margin-left", "-" + 90 * (numb - 1) + "px");
 
 
-    
+
 
   }
 
@@ -136,7 +136,7 @@ class SliderFour {
     parentDiv.find(".active").removeClass("active");
     let numb = (<any>arg.currentTarget).dataset.number;
     parentDiv.find('*[data-number="' + numb + '"]').addClass("active");
-    let url = (<any>$(arg.currentTarget).parent() .find("img")[0]).currentSrc;
+    let url = (<any>$(arg.currentTarget).parent().find("img")[0]).currentSrc;
     $(arg.currentTarget).parent().parent().parent().parent().parent().find(".bigImage").css("background-image", "url(" + url + ")");
   }
 
@@ -144,29 +144,29 @@ class SliderFour {
 }
 
 
-class ModalWindow{
-  static init(){
+class ModalWindow {
+  static init() {
 
     ModalWindow.needInit = false
 
-    $(".modalWindow .close").on("click", ()=>{
+    $(".modalWindow .close").on("click", () => {
       ModalWindow.setStatus(false);
     });
   }
 
   static needInit: boolean = true;
 
-  static setStatus(status: boolean, url?: string){
+  static setStatus(status: boolean, url?: string) {
     ModalWindow.needInit && ModalWindow.init();
     debugger
-    if(status){
+    if (status) {
       $(".modalWindow img").attr("src", url);
       $(".modalWindow").removeClass("displayNone");
       setTimeout(() => {
         $(".modalWindow").addClass("active");
       }, 0.1);
     }
-    else{
+    else {
       $(".modalWindow").removeClass("active");
       setTimeout(() => {
         $(".modalWindow").addClass("displayNone");
@@ -177,18 +177,16 @@ class ModalWindow{
 }
 
 
-
-var url: string;
-//var dataInner: string;
-
-
-debugger
-
-url = "/jsonData/"+pageName+".js";
+let url = "/jsonData/" + pageName + ".js";
 let page = new Page(url);
 
-setTimeout(function () {
+setTimeout(() => {
   new SliderFour(".sliderFour");
+  debugger;
+  if($(window).width()  < 800 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+    $(".bigImage").each(function(){
+      $(this).css("height", $(".bigImage").width() + "px !important");
+    }); 
 }, 1000);
 
 
