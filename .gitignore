@@ -15,3 +15,5 @@ mail.php
 app.gitignore
 package-lock.json
 *.zip
+www/.vs/slnx.sqlite-journal
+*.sqlite
