@@ -216,20 +216,22 @@
             
             <div class="wrap">
                    
-                <div itemscope itemtype="http://schema.org/Organization" class="title bhp">Контакты</div>
-                <div itemprop="name" class="text animated fadeInUp ff15"><span itemprop="name">ООО «Брайтенберг»</span><br>
-                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                        <span itemprop="addressLocality">183038, Мурманская область,<br> город Мурманск,</span> <br>
-                        <span itemprop="streetAddress">проспект Ленина, д. 82, офис 918</span> <br><br>
-                    </div> 
-                    Режим работы:<br>
-                    Пн-Пт с 09.00 до 18.00
-                </div>
-                <div class="botton animated fadeInUp ff13">
-                    <div class="phone actionPhone icon bhp logo point">
-                        <img src="img/phone.png" alt="">
+                <div itemscope itemtype="http://schema.org/Organization">
+                    <div class="title bhp">Контакты</div>
+                    <div itemprop="name" class="text animated fadeInUp ff15"><span itemprop="name">ООО «Брайтенберг»</span><br>
+                        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                            <span itemprop="addressLocality">183038, Мурманская область,<br> город Мурманск,</span> <br>
+                            <span itemprop="streetAddress">проспект Ленина, д. 82, офис 918</span> <br><br>
+                        </div> 
+                        Режим работы:<br>
+                        Пн-Пт с 09.00 до 18.00
                     </div>
-                    <div class="phoneNumber">8 (8152) 78-30-20</div>
+                    <div class="botton animated fadeInUp ff13">
+                        <div class="phone actionPhone icon bhp logo point">
+                            <img src="img/phone.png" alt="">
+                        </div>
+                        <div itemprop="telephone" class="phoneNumber">8 (8152) 78-30-20</div>
+                    </div>
                 </div>
             </div>
             <div class="triangle"><img src="" alt=""></div>
