@@ -63,9 +63,15 @@
               <b>{{title}}</b> {{text}}<br>
               {{/lines}}
             </div>
+
             <div class="actionPhone bhp button">Заказать</div>
               
           </div>
+
+
+        <div class="addTextInfoPost">
+          {{{addTextInfoPost}}}
+        </div>
 
         </div>
       </div>
