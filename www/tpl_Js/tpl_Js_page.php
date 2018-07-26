@@ -76,7 +76,7 @@
     <div class="text">{{{rightText}}}</div>
     <div class="blockInfo">
       {{#rightBlock}}
-      <b>{{i}}</b> {{text}}</br>
+      <b>{{i}}</b> {{{text}}}</br>
       {{/rightBlock}}
     </div>
   </div>
