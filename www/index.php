@@ -188,9 +188,9 @@
                             <div class="wrapTextString">Инвентарь для клининга <font>SYR, Grass, ACG</font></div>
                             <div class="wrapTextString">Инвентарь для пищевой промышленности <font>FBK</font></div>
                             <div class="wrapTextString">Снегоуборочный инвентарь <font>Finland</font></div>
-                            <div class="wrapTextString">Средства индивидуальной защиты <font>SitekMed, Klever, Бахилы, Фартуки, ARCHDALE, ХБ перчатки</font></div>
+                            <div class="wrapTextString">Средства индивидуальной защиты <font>SitekMed, Klever, <a style="text-decoration: underline;" href="/bahils/">Бахилы</a>, Фартуки, ARCHDALE, <a style="text-decoration: underline;" href="/hand/">ХБ перчатки</a></font></div>
                             <div class="wrapTextString">Санпропускники <font>StepSteel, Дезковрик, HACCPER Dezmatta</font></div>
-                            <div class="wrapTextString">Санитарно-гигиеническое оборудование (системы дозирования, дозаторы для жидкого мыла, сушилки для рук, фены, диспенсеры для бумажной продукции) <font>BXG, Veiro, Seko</font></div>
+                            <div class="wrapTextString">Санитарно-гигиеническое оборудование (системы дозирования, дозаторы для жидкого мыла, сушилки для рук, фены, <a style="text-decoration: underline;" href="/dispan/">диспенсеры для бумажной продукции)</a> <font>BXG, Veiro, Seko</font></div>
                             <div class="wrapTextString">Санитарно-гигиенические расходные материалы <font>Veiro, Lime, Мешки для Мусора</font></div>
                             <div class="wrapTextString">Товары для отелей и гостиниц <font>GRASS, SARGAN, Cosmi</font></div>
                             <div class="wrapTextString">Нетканные <font>протирочные материалы</font></div>

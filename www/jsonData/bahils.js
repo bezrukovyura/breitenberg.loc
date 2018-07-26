@@ -1,6 +1,6 @@
 {
-  "metaTitle": "myTitle",
-  "metaDescription": "myDescription",
+  "metaTitle": "Бахилы - купить оптом от производителя, компания Breitenberg в Мурманске",
+  "metaDescription": "У нас вы можете купить бахилы оптом от производителя, а также уборочный инвентарь и моющие средства. Компания Breitenberg в Мурманске.",
   "title": "Бахилы от производителя",
     "type": "бахил",
       "items": [
