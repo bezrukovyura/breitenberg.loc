@@ -65,6 +65,9 @@
             overflow: hidden;
             float: left;
           }
+          >.mobileTitle{
+            width: 100%;
+          }
           .images {
             .bigImage {
               width: calc(~'100% - 6px');
@@ -257,10 +260,16 @@
   .mainPage>.text {
     margin: 10px 0 0 10px !important;
   }
-  .pageTpl .mainPage .content .additionContent .blockInfo {
-    margin: 35px 6px;
-    padding: 27px !important;
-}
+    .pageTpl .mainPage .content .additionContent{ 
+      margin: 0 0 35px 0;
+      .blockInfo {
+      margin: 35px 6px 0 6px;
+      padding: 27px !important;
+    }
+  }
+  .addTextInfo{
+    padding: 0 !important;
+  }
 }
 
 .addTextInfo {
