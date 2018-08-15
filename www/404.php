@@ -1,5 +1,5 @@
 <html>
-<?php include '../tpl_Php/_header.php'; ?>
+<?php include 'tpl_Php/_header.php'; ?>
 
 <body class="is404" id="sec">
 <script>
@@ -7,8 +7,8 @@
 //     document.location.href = "http://breitenberg.ru/404.php";
 </script>
 
-  <?php include '../tpl_Php/_bootLoader.php'; ?>
-  <?php include '../tpl_Php/_topMenu.php'; ?>
+  <?php include 'tpl_Php/_bootLoader.php'; ?>
+  <?php include 'tpl_Php/_topMenu.php'; ?>
 
 
 <div class="errorContent bhp yellow">
@@ -42,17 +42,17 @@ body{
       <div class="coll desktop">
         <a href="#">Туалетная бумага</a>
         <a href="#">Жидкое мыло</a>
-        <a href="#">Пеногенератор</a>
-        <a href="#">Поломоечная машина</a>
+        <a href="/penogeneratory/">Пеногенератор</a>
+        <a href="/polomoechnye_mashiny/">Поломоечная машина</a>
         <a href="/hand">Перчатки хб, нитриловые</a>
         <a href="/dispan">Диспенсер</a>
       </div>
       <div class="coll desktop">
         <a href="#">Снабжение судов</a>
-        <a href="#">Моющие средства</a>
-        <a href="#">Дезинфицирубщие средства</a>
+        <a href="/chistyaschie/">Моющие средства</a>
+        <a href="/chistyaschie/">Дезинфицирующие средства</a>
         <a href="#">Уборочный инвентарь</a>
-        <a href="#">Veiro</a>
+        <a href="/veiro/">Veiro</a>
       </div>
 
 	  <div class="coll mobile">
@@ -64,17 +64,17 @@ body{
         <a href="#">ХАССП</a>
 		<a href="#">Туалетная бумага</a>
         <a href="#">Жидкое мыло</a>
-        <a href="#">Пеногенератор</a>
+        <a href="/penogeneratory/">Пеногенератор</a>
       </div>
 	  <div class="coll mobile">
-        <a href="#">Поломоечная машина</a>
+        <a href="/polomoechnye_mashiny/">Поломоечная машина</a>
         <a href="/hand">Перчатки хб, нитриловые</a>
         <a href="/dispan">Диспенсер</a>
 		<a href="#">Снабжение судов</a>
-        <a href="#">Моющие средства</a>
-        <a href="#">Дезинфицирубщие средства</a>
+        <a href="/chistyaschie/">Моющие средства</a>
+        <a href="/chistyaschie/">Дезинфицирубщие средства</a>
         <a href="#">Уборочный инвентарь</a>
-        <a href="#">Veiro</a>
+        <a href="/veiro/">Veiro</a>
 
       </div>
     </div>
@@ -82,7 +82,7 @@ body{
 </div>
 
 <input class="gam" id="menu_bhp2" type="checkbox" style="display: none;">
-  <?php include '../tpl_Php/_footer.php'; ?>
+  <?php include 'tpl_Php/_footer.php'; ?>
 
 </body>
 </html>

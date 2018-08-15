@@ -6,21 +6,45 @@
 		<priority>1.0</priority>
 		<changefreq>daily</changefreq>
 	</url>
-	
+
 	<url>
 		<loc>https://breitenberg.ru/bahils/</loc>
 		<priority>0.8</priority>
 		<changefreq>weekly</changefreq>
 	</url>
-	
+
 	<url>
 		<loc>https://breitenberg.ru/hand/</loc>
 		<priority>0.8</priority>
 		<changefreq>weekly</changefreq>
 	</url>
-		
+
 	<url>
 		<loc>https://breitenberg.ru/dispan/</loc>
+		<priority>0.8</priority>
+		<changefreq>weekly</changefreq>
+	</url>
+
+  <url>
+		<loc>https://breitenberg.ru/penogeneratory/</loc>
+		<priority>0.8</priority>
+		<changefreq>weekly</changefreq>
+	</url>
+
+  <url>
+		<loc>https://breitenberg.ru/polomoechnye_mashiny/</loc>
+		<priority>0.8</priority>
+		<changefreq>weekly</changefreq>
+	</url>
+
+  <url>
+		<loc>https://breitenberg.ru/chistyaschie/</loc>
+		<priority>0.8</priority>
+		<changefreq>weekly</changefreq>
+	</url>
+
+  <url>
+		<loc>https://breitenberg.ru/veiro/</loc>
 		<priority>0.8</priority>
 		<changefreq>weekly</changefreq>
 	</url>
