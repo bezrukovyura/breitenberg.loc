@@ -300,7 +300,7 @@ window.onload = function () {
         let phone = $("#phone").val();
         let comment = $("#comment").val();
 
-        let urlNormal = "http://breitenberg.ru/mail.php";
+        let urlNormal = "https://breitenberg.ru/mail.php";
 
         var data = {
             name: name,

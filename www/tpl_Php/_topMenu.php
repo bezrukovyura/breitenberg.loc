@@ -3,7 +3,7 @@
 
             <div class="back1 back"></div>
             <div class="back2 back"></div>
-            <div class="bhp close" style="width: 35px;height: 35px;"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.84 121.84"><defs><style>.cls-1{fill:#111313;}</style></defs><title>cross</title><path class="cls-1" d="M60.92,121.83a60.92,60.92,0,1,1,60.92-60.92A60.92,60.92,0,0,1,60.92,121.83ZM60.92,7a53.92,53.92,0,1,0,53.92,53.92h0A54,54,0,0,0,60.92,7Z" transform="translate(0 0.01)"/><polygon points="87.82 38.38 82.51 33.08 60.91 54.68 39.32 33.08 34.01 38.38 55.61 59.98 34.01 81.58 39.32 86.88 60.91 65.28 82.51 86.88 87.82 81.58 66.22 59.98 87.82 38.38"/></svg></div>
+            <div class="bhp close" style="width: 34px;height: 34px;"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.84 121.84"><defs><style>.cls-1{fill:#111313;}</style></defs><title>cross</title><path class="cls-1" d="M60.92,121.83a60.92,60.92,0,1,1,60.92-60.92A60.92,60.92,0,0,1,60.92,121.83ZM60.92,7a53.92,53.92,0,1,0,53.92,53.92h0A54,54,0,0,0,60.92,7Z" transform="translate(0 0.01)"/><polygon points="87.82 38.38 82.51 33.08 60.91 54.68 39.32 33.08 34.01 38.38 55.61 59.98 34.01 81.58 39.32 86.88 60.91 65.28 82.51 86.88 87.82 81.58 66.22 59.98 87.82 38.38"/></svg></div>
             <div class="wrap">
                 <div class="left">
                     <div class="title">Заявка</div>

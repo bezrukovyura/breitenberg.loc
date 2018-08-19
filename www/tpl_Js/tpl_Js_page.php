@@ -1,10 +1,10 @@
 <script id="tpl_Js_page" type="text/template">
   <a href="/" class="back">Назад</a>
-  <div class="title">{{title}}</div>
+  <div class="title"><h1>{{title}}</h1></div>
   <div class="text">У компании «Брайтерберг» вы можете приобрести следующие виды {{type}}:</div>
   <div class="content">
     <div class="itemsConteiner">
-    {{#items}}
+        {{#items}}
       <div class="itemWrapper">
         <div class="item">
         <div style="display: none" class="mobileTitle">{{title}}</div>
@@ -53,7 +53,7 @@
           </div>
         
           <div class="info">
-            <div class="title">{{title}}</div>
+            <div class="title"><h2>{{title}}</h2></div>
             <div class="titleOption">{{titleOption}}</div>
             <div class="addTextInfo">
               {{{addTextInfo}}}
