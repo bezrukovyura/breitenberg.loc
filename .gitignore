@@ -17,3 +17,5 @@ package-lock.json
 *.zip
 www/.vs/slnx.sqlite-journal
 *.sqlite
+www/Scripts/all.js
+www/Styles/main.css

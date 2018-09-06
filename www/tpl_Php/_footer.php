@@ -35,7 +35,7 @@
             </div>
         </div>
         <div style="clear:both;"></div>
-        <div class="copyright">© Breitenberg 2018</div>
+        <div class="copyright">Адрес: город Мурманск, проспект Ленина, д. 82, офис 918<br>© Breitenberg 2018</div>
         
     </div>
     <script type="application/ld+json"> 

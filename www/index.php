@@ -130,7 +130,7 @@
                     <div class="row">
                         <div class="item animated fadeInUp ff6">
                             <div class="logo"><img src="img/icon/Vector Smart Object.png" alt=""></div>
-                            <div class="text">Оказываем <font>помощь в выборе и внедрении технологий очистки,</font> в том числе по системе ХАССП (HACCP)</div>
+                            <div class="text">Оказываем <font><a style="color: rgba(24, 23, 23, 0.502);" href="/haccp/">помощь в выборе и внедрении технологий очистки,</a></font> в том числе по системе ХАССП (HACCP)</div>
                         </div>
                         <div class="item animated fadeInUp ff7">
                             <div class="logo"><img src="img/icon/Vector Smart Object-1.png" alt=""></div>
@@ -182,9 +182,9 @@
                         <div class="top arrow"><img src="img/up.png" alt=""></div>
                         <div class="down arrow"><img src="img/down.png" alt=""></div>
                         <div class="scroll">
-                            <div class="wrapTextString">Чистящие и дез средства для пищевой промышленности ГК Технология Чистоты (<font>Биомол, Деталан, Биолайт, Криодез, Ультрадез</font>) и многое другое</div>
+                            <div class="wrapTextString">Чистящие и дез средства для пищевой промышленности ГК Технология Чистоты (<font>Биомол, (<a style="text-decoration: underline;" href="/detalan/">Деталан</a>, Биолайт, Криодез, Ультрадез</font>) и многое другое</div>
                             <div class="wrapTextString"><a style="text-decoration: underline;" href="/chistyaschie/">Чистящие и дез. средства для клининга <font>GRASS, ГК Технология Чистоты</a></font></div>
-                            <div class="wrapTextString">Средства для стирки и белья <font>ДаРусс, GRASS, Kiehl</font></div>
+                            <div class="wrapTextString">Средства для стирки белья <font>ДаРусс, GRASS, Kiehl</font></div>
                             <div class="wrapTextString">Инвентарь для клининга <font>SYR, Grass, ACG</font></div>
                             <div class="wrapTextString">Инвентарь для пищевой промышленности <font>FBK</font></div>
                             <div class="wrapTextString">Снегоуборочный инвентарь <font>Finland</font></div>
@@ -202,7 +202,7 @@
 
                         <div class="scrollBar"></div>
                     </div>
-                 <div class="bhp button actionPhone">Заказать продукцию</div>
+                 <div class="bhp button actionPhone">Заказать продукцию оптом</div>
             </div>
 
         </div>
@@ -224,7 +224,8 @@
                             <span itemprop="streetAddress">проспект Ленина, д. 82, офис 918</span> <br><br>
                         </div>
                         Режим работы:<br>
-                        Пн-Пт с 09.00 до 18.00
+                        Пн-Пт с 09.00 до 18.00<br>
+                        <b style="font-size: 16px">info@breitenberg.ru</b>
                     </div>
                     <div class="botton animated fadeInUp ff13">
                         <div class="phone actionPhone icon bhp logo point">

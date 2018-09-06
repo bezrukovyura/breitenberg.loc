@@ -7,17 +7,19 @@
     "gulp": "latest"
   },
   "devDependencies": {
+    "concat-files": "^0.1.1",
     "gulp": "latest",
     "gulp-changed": "latest",
-    "less": "2.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "latest",
+    "gulp-concat": "^2.6.1",
     "gulp-less": "3.5.0",
     "gulp-sourcemaps": "latest",
     "gulp-typescript": "latest",
-    "gulp-watch": "latest",
-    "typescript": "latest",
-    "gulp-concat": "latest",
     "gulp-uglify": "latest",
-    "gulp-clean-css": "latest",
-    "less-plugin-autoprefix": "latest"
+    "gulp-watch": "latest",
+    "less": "2.1.0",
+    "less-plugin-autoprefix": "latest",
+    "typescript": "latest"
   }
 }

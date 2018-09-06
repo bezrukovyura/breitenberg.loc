@@ -57,6 +57,8 @@ if (!isMobile() && isIndex()) {
     });
 }
 
+
+
 window.onload = function () {
 
     var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
@@ -274,13 +276,13 @@ window.onload = function () {
             return false;
         }
 
-        if (!(<any>$('#mail')[0]).checkValidity()) {
-            $('#mail').addClass("go");
-            setTimeout(function () {
-                $('#mail').removeClass("go");
-            }, 5000)
-            return false;
-        }
+        // if (!(<any>$('#mail')[0]).checkValidity()) {
+        //     $('#mail').addClass("go");
+        //     setTimeout(function () {
+        //         $('#mail').removeClass("go");
+        //     }, 5000)
+        //     return false;
+        // }
 
         if (!(<any>$('#phone')[0]).checkValidity()) {
             $('#phone').addClass("go");
@@ -322,7 +324,7 @@ window.onload = function () {
                 }, 5000);
             })
             .fail(function (event) {
-                alert("We have problem... Call: 8 (8152) 78-77-88");
+                alert("We have problem... Call: 8 (8152) 78 30 20");
             });
     }
 
