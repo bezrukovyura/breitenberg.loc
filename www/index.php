@@ -40,7 +40,7 @@
             </div>
             <div class="about_wrap animated fadeInUp ff1">
                     <div class="bhp anchor"  id="sec1"></div>
-                <div class="bhp title">О Компании</div>
+                <h1 class="bhp title">О Компании</h1>
                 <div class="text " >
                     Компания «Брайтенберг» является профессиональной консалтинговой Компанией в области обеспечения чистоты, санитарии и гигиены на пищевых производствах и в индустрии профессионального клининга
                 </div>
@@ -70,9 +70,9 @@
             <div class="wrap">
                 <div class="bhp number number01">01</div>
                 <div class="bhp inner_wrap">
-                    <div class="title animated fadeInUp ff17">Наши Клиенты</div>
+                    <h2 class="title animated fadeInUp ff17">Наши Клиенты</h2>
                     <div class="text animated fadeInUp ff16">
-                      Мы работаем как с ведущими, так и с небольшими Компаниями индустрии пищевых производств, профессионального клининга, торгово-развлекательными и деловыми центрами, медицинскими и спортивно-оздоровительными центрами, АЗС и автосалонами, а также предприятиями индустрии HoReCа
+                      Мы работаем как с ведущими, так и с небольшими Компаниями индустрии пищевых производств, профессионального клининга, предприятиями индустрии HoReCа, торгово-развлекательными и деловыми центрами, медицинскими и спортивно-оздоровительными центрами, АЗС и автосалонами, а также с компаниями, осуществляющими <a style="text-decoration: underline;" href="https://breitenberg.ru/ship">снабжение судов</a>
                     </div>
                 </div>
                 <div class="sliderMiniLogsWrap animated fadeInUp ff14">
@@ -177,7 +177,7 @@
 
             <div class="wrap">
                     <div class="number bhp number03" id="sec4">03</div>
-                    <div class="title bhp animated fadeInUp ff18">                <div class="bhp anchor"  ></div>Продукция</div>
+                    <h2 class="title bhp animated fadeInUp ff18">                <div class="bhp anchor"  ></div>Продукция</h2>
                     <div class="scrollerWrap  animated fadeInUp ff12">
                         <div class="top arrow"><img src="img/up.png" alt=""></div>
                         <div class="down arrow"><img src="img/down.png" alt=""></div>
@@ -191,6 +191,7 @@
                             <div class="wrapTextString">Средства индивидуальной защиты <font>SitekMed, Klever, <a style="text-decoration: underline;" href="/bahils/">Бахилы</a>, Фартуки, ARCHDALE, <a style="text-decoration: underline;" href="/hand/">ХБ перчатки</a></font></div>
                             <div class="wrapTextString">Санпропускники <font>StepSteel, Дезковрик, HACCPER Dezmatta</font></div>
                             <div class="wrapTextString">Санитарно-гигиеническое оборудование (системы дозирования, дозаторы для жидкого мыла, сушилки для рук, фены, <a style="text-decoration: underline;" href="/dispan/">диспенсеры для бумажной продукции)</a> <font>BXG, Veiro, Seko</font></div>
+                            <div class="wrapTextString"><a style="text-decoration: underline;" href="/soap/">Жидкое мыло</a> <font>(пенка, крем и дезинфицирующее) Grass, ГК Технология чистоты</font></div>
                             <div class="wrapTextString">Санитарно-гигиенические расходные материалы <font><a style="text-decoration: underline;" href="/veiro/"> Veiro</a>, Lime, Мешки для Мусора</font></div>
                             <div class="wrapTextString">Товары для отелей и гостиниц <font>GRASS, SARGAN, Cosmi</font></div>
                             <div class="wrapTextString">Нетканные <font>протирочные материалы</font></div>
