@@ -33,7 +33,6 @@ function circ(start: number, fin: number) {
 }
 
 
-
 let circStart = 0;
 let circFin = 359.9;
 let circStep = 0;
@@ -297,6 +296,11 @@ window.onload = function () {
     });
 
     function sentMessage() {
+        try{
+            (<any>ya).Counter48478217.reachGoal('zayavka');}
+        catch{
+
+        }
         let name = $("#name").val();
         let mail = $("#mail").val();
         let phone = $("#phone").val();
