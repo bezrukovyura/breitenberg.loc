@@ -196,9 +196,9 @@
                             <div class="wrapTextString">Товары для отелей и гостиниц <font>GRASS, SARGAN, Cosmi</font></div>
                             <div class="wrapTextString">Нетканные <font>протирочные материалы</font></div>
                             <div class="wrapTextString"><a style="text-decoration: underline;" href="/polomoechnye_mashiny/">Поломоечные машины <font>Karcher, IPC и аксессуары к ним</a></font></div>
-                            <div class="wrapTextString">Аппараты высокого давления и аксессуары <font>Karher, Hawk, PA</font></div>
+                            <div class="wrapTextString">Аппараты высокого давления и аксессуары <font><a style="text-decoration: underline;" href="http://krh.breitenberg.ru" target="_blank">Karher</a>, Hawk, PA</font></div>
                             <div class="wrapTextString">Оборудование и аксессуары для пищевой промышленности (<a style="text-decoration: underline;" href="/penogeneratory/">пеногенераторы</a>, пенные станции, запчасти и аксессуары к ним) <font>PA, Ramex</font></div>
-                            <div class="wrapTextString no_border">Пылесосы и аксессуары <font>Karcher, IPC, GRASS</font></div>
+                            <div class="wrapTextString no_border">Пылесосы и аксессуары <font><a style="text-decoration: underline;" href="http://krh.breitenberg.ru" target="_blank">Karcher</a>, IPC, GRASS</font></div>
                         </div>
 
                         <div class="scrollBar"></div>

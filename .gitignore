@@ -19,3 +19,8 @@ www/.vs/slnx.sqlite-journal
 *.sqlite
 www/Scripts/all.js
 www/Styles/main.css
+.htaccess
+Scripts/all.js
+Styles/main.css
+.htaccess
+.htaccess
