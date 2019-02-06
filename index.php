@@ -182,7 +182,7 @@
                         <div class="top arrow"><img src="img/up.png" alt=""></div>
                         <div class="down arrow"><img src="img/down.png" alt=""></div>
                         <div class="scroll">
-                            <div class="wrapTextString">Чистящие и дез средства для пищевой промышленности ГК Технология Чистоты (<font>Биомол, (<a style="text-decoration: underline;" href="/detalan/">Деталан</a>, Биолайт, Криодез, Ультрадез</font>) и многое другое</div>
+                            <div class="wrapTextString">Чистящие и дез средства для пищевой промышленности ГК Технология Чистоты (<font>Биомол, <a style="text-decoration: underline;" href="/detalan/">Деталан</a>, Биолайт, Криодез, Ультрадез</font>) и многое другое</div>
                             <div class="wrapTextString"><a style="text-decoration: underline;" href="/chistyaschie/">Чистящие и дез. средства для клининга <font>GRASS, ГК Технология Чистоты</a></font></div>
                             <div class="wrapTextString">Средства для стирки белья <font>ДаРусс, GRASS, Kiehl</font></div>
                             <div class="wrapTextString">Инвентарь для клининга <font>SYR, Grass, ACG</font></div>
